@@ -2,6 +2,7 @@ class item(object):
     def __init__(self, name, description):
         self.name = name
         self.description = description
+        #Hi
 
 class weapon(item):
     def __init__(self,name, description, damage):
